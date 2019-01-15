@@ -1,0 +1,32 @@
+:root {
+  --black: hsl(0, 0%, 10%);
+  --white: hsl(0, 0%, 95%);
+  --text: var(--black);
+  --bg: var(--white);
+}
+
+/**
+ * BORDER BOX
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
